@@ -3,28 +3,12 @@ This repository contains selected notebooks and codelabs to learn fundamentals a
 
 `Notebook` sources is a python notebook complete with code and comments. `Codelab` sources is an self-followed instruction set to build application
 
-## Getting Started
+## Selected Resources
 
-- [[Notebook] Intro Gemini 2.0 Flash](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/getting-started/intro_gemini_2_0_flash.ipynb) : Fundamental on how to use Gemini 2.0 using it's SDK, learn the following things:
-  
-  - Text Generation
-  - Start multi turn conversation
-  - Asynchronous request
-  - Model parameters and system instructions
-  - Multimodal prompt
-  - Safety Filters
-  - Structured Output
-  - Function Calling
-- [[Notebook] Context Caching](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/context-caching/intro_context_caching.ipynb): Learn how to use context caching to improve cost efficiency from frequently used input tokens
-
-## Start Building
-
-- [[Codelab] Build a Gemini-Powered YouTube Summarizer ](https://codelabs.developers.google.com/devsite/codelabs/build-youtube-summarizer): Build a cloud application with web interface to summarize YouTube videos, what you'll learn:
-    - Create a Gemini-powered back-end API using Flask API library
-    - Build a GenAI app link the front-end and back-end together
-    - Deploy the developed GenAI application on Cloud Run
-- [[Codelab] Build a contextual Yoga Poses recommender app with Firestore, Vector Search, Langchain and Gemini](https://codelabs.devsite.corp.google.com/yoga-pose-firestore-vectorsearch-python): You will build out an application that uses vector search to recommend Yoga poses, what you'll learn:
-  - Use Gemini to generate text descriptions for yoga poses
-  - Use Langchain Document Loader for Firestore to load records from an enhanced dataset from Hugging Face into Firestore along with Vector Embeddings
-  - Use Langchain Vector Store for Firestore to search for data based on a natural language query
-  - Use Google Cloud Text to Speech API to generate Audio content
+| Type | Language | Title | Key Learning Points | Keywords |
+|---|---|---|---|---|
+| Notebook | Python | [Intro Gemini 2.0 Flash](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/getting-started/intro_gemini_2_0_flash.ipynb) | - Text Generation<br>- Multi-turn conversations<br>- Asynchronous requests<br>- Model parameters and system instructions<br>- Multimodal prompts<br>- Safety Filters<br>- Structured Output<br>- Function Calling | Gemini API |
+| Notebook | Python | [Context Caching](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/context-caching/intro_context_caching.ipynb) | - Efficient token usage<br>- Context caching techniques | Gemini API |
+| Codelab | Python | [Build a Gemini-Powered YouTube Summarizer](https://codelabs.developers.google.com/devsite/codelabs/build-youtube-summarizer) | - Create a Gemini-powered back-end API using Flask<br>- Build a GenAI app linking front-end and back-end<br>- Deploy the developed GenAI application on Cloud Run | Gemini API<br>Cloud Run|
+| Codelab | Python | [Build a contextual Yoga Poses recommender app](https://codelabs.developers.google.com/yoga-pose-firestore-vectorsearch-python) | - Use Gemini to generate text descriptions for yoga poses<br>- Use Langchain Document Loader for Firestore with Hugging Face dataset<br>- Use Langchain Vector Store for natural language search<br>- Use Google Cloud Text to Speech API for audio content | Gemini API<br>Cloud Run<br>Firestore<br>Text to Speech API<br>Langchain|
+| Codelab | Node.js | [Build a contextual Yoga Poses recommender app](https://codelabs.developers.google.com/yoga-pose-firestore-vectorsearch-nodejs) | - Use Gemini to generate text descriptions for yoga poses<br>- Load records from an enhanced dataset from Hugging Face into Firestore along with Vector Embeddings<br>- Use Firestore Vector Search to search for data based on a natural language query<br>- Use Google Cloud Text to Speech API for audio content | Gemini API<br>Cloud Run<br>Firestore<br>Text to Speech API|
